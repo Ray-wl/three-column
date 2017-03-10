@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>3栏布局</title>
+	<style type="text/css">
+		* {
+			padding:0;
+			margin:0;
+		}
+		#wrap {
+			box-sizing:border-box;
+			margin:20px;
+			background: #eee;
+			padding:20px;
+		}
+		#wrap,#left,#right,#contain,img {
+			border:1px solid #999;
+		}
+		#left {
+			box-sizing:border-box;
+			width:200px;
+			padding:20px;
+			float:left;
+			background: #fff;
+		}
+		#right {
+			box-sizing:border-box;
+			width:120px;
+			padding:0px 20px 20px 20px;
+			float:right;
+			background: #fff;
+		}
+		#contain {
+			margin:0 140px 0 220px;
+			padding:20px;
+			background: #fff;
+		}
+		p {
+			margin:10px 0;
+			line-height:30px;
+			text-indent:2em;
+			text-align:justify;
+		}
+		.title {
+			font-size:1.2em;
+			font-weight:bold;
+			text-indent:0;
+		}
+		.personal {
+			margin-top:20px;
+		}
+		h4 	{
+			width:70px;
+			text-align:center;
+			float:right;
+			margin:20px 0 0 5px;
+		}
+		img {
+			cursor:pointer;
+		}
+	</style>
+</head>
+<body>
+	<div id="wrap">
+		<div id="right">
+			<img src="https://github.com/Ray-wl/three-column/blob/master/img/1.jpg?raw=true" alt="个人1的LOGO" class="personal">
+			<img src="https://github.com/Ray-wl/three-column/blob/master/img/2.jpg?raw=true" alt="个人2的LOGO" class="personal">
+			<img src="https://github.com/Ray-wl/three-column/blob/master/img/4.jpg?raw=true" alt="个人3的LOGO" class="personal">
+			<img src="https://github.com/Ray-wl/three-column/blob/master/img/5.jpg?raw=true" alt="个人4的LOGO" class="personal">
+		</div>
+		<div id="left">
+			<div id="team"><img src="https://github.com/Ray-wl/three-column/blob/master/img/3.jpg?raw=true" alt="团队LOGO">
+			<h4>世界大战简史</h4>
+			</div>
+		</div>
+		<div id="contain">
+			<p class="title">第二次世界大战</p>
+			<p>第二次世界大战（World War II，简称二战，亦可称世界反法西斯战争）。1939年9月1日—1945年9月2日，以德意志第三帝国、意大利王国、日本帝国三个法西斯轴心国和匈牙利王国、罗马尼亚王国、保加利亚王国等仆从国为一方，以反法西斯同盟和全世界反法西斯力量为另一方进行的第二次全球规模的战争。</p>
+			<p>从欧洲到亚洲，从大西洋到太平洋，先后有61个国家和地区、20亿以上的人口被卷入战争，作战区域面积2200万平方千米。据不完全统计，战争中军民共伤亡9000余万人，4万多亿美元付诸流水。第二次世界大战最后以美国、苏联、英国、中华民国等反法西斯国家和世界人民战胜法西斯侵略者赢得世界和平与进步而告终。</p>
+			<p class="title">战争起因</p>
+			<p>1922年10月，意大利王国国王任命墨索里尼担任意大利王国总理，法西斯专政在意大利王国开始建立。西方国家大萧条所带来的动乱，使法西斯主义恶性发展。纳粹党迅速膨胀为德意志第三帝国第一大党。1933年1月，阿道夫·希特勒在德意志第三帝国上台，2月制造国会纵火案，3月通过《授权法》，继之一系列法西斯法案出笼，至次年8月颁布《国家元首法》，对国家生活进行了全面改组，建立起集权统治的法西斯体制，并且加紧扩军备战。从1931年九一八事变起，日本走上了战争和法西斯化的道路。在日本以军部为中心，从首先发动侵略战争着手，然后通过天皇制机构，自上而下的逐步法西斯化，以适应进一步扩大侵略战争。1936年，日本法西斯青年军官发动的“二二六”兵变，使军部实力大大加强。不久，受军部控制的广田弘毅上台组阁，建立军事法西斯专政。之后，德意志第三帝国、意大利王国与日本签订反共产主义协定，并且干预西班牙内战。到1933年11月，法西斯运动遍及23个国家，半年后增至30个国家。</p>
+		</div>
+	</div>
+</body>
+</html>
